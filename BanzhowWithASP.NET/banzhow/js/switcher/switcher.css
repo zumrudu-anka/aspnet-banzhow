@@ -1,0 +1,51 @@
+#switcher-options{
+  position: fixed; z-index: 9999; background: #2C3E50;
+  color: #FFF;
+  padding: 20px;
+  top: 100px;
+  left: -176px;
+  *width: 135px;
+}
+
+#switcher-options ul{
+  margin: 20px 0 0 0;
+}
+
+#switcher-options ul li a{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#switcher-options ul li a.default{
+  background: #1ABC9C;
+}
+
+#switcher-options ul li a.blue{
+  background: #28ABCC;
+}
+
+#switcher-options ul li a.violet{
+  background: #9b59b6;
+}
+
+#switcher-options ul li a.red{
+  background: #e74c3c;
+}
+
+#switcher-options ul li a.orange{
+  background: #f39c12;
+}
+
+.switcher-btn{
+  position: absolute;
+  right: -28px;
+  top: 0;
+  background: #2C3E50;
+  padding: 3px 8px;
+  font-size: 14px;
+  color: #FFF;
+}
